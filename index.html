@@ -4,16 +4,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Inter:wght@100&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Intro  -->
     <header>
         <nav>
-            <ul>
-                <li>Andrew Doherty</li>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+            <h1 id="name">Andrew Doherty</h1>
+            <ul id="nav">
+                <li id="nav">About</li>
+                <li id="nav">Portfolio</li>
+                <li id="nav">Contact</li>
             </ul>
         </nav>
     </header>
@@ -28,7 +32,7 @@
         </section>
 
         <section>
-            <h2>Portfolio</h2>
+            <h1>PORTFOLIO</h1>
             <ul>
                 <li>Project 1</li>
                 <li>Project 2</li>
@@ -40,22 +44,23 @@
         </section>
 
         <section>
-            <h2>ABOUT.</h2>
+            <h1>ABOUT.</h1>
+            <img src="" alt="Me">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
             <div id="left list">
-                <h2>Experience</h2>
-                    <ul>
+                <h1>Experience</h1>
+                    <ul class="experience">
                         <li>Trainee Software Developer @ _Nology</li>
                         <li>Mac Genius @ Apple Inc.</li>
                         <li>Apple Media Products Quality Assurance @ Apple Inc. </li>
                     </ul>
             </div>
-            
+
             <div id="right list">
-                <h2>Interests</h2>
-                    <ul>
+                <h1>Interests</h1>
+                    <ul class="interests">
                         <li>Hiking</li>
                         <li>Boxing</li>
                         <li>Paddle Boarding</li>
@@ -70,5 +75,11 @@
 
     
     </main>
+
+    <footer>
+        <img src="" alt="LinkedIn">
+        <img src="" alt="Github">
+        <img src="" alt="CV">
+    </footer>
 </body>
 </html>

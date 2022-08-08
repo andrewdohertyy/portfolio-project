@@ -1,0 +1,22 @@
+
+body {
+    background-color: 2c2a2a;
+    color: white;
+    font-family: playfair display;
+}
+
+h1 {
+    font-family: "cormorant", sans-serif;
+}
+
+p {
+    font-family: "inter", sans-serif;
+}
+
+#nav {
+    list-style-type: none;
+}
+
+#name {
+    color: #D9BEA5;
+}   
