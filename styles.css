@@ -63,6 +63,23 @@ p {
     line-height: 102.4px;
 }
 
+.float-container {
+    border: 3px solid #fff;
+    padding: 100px;
+}
+
+.float-child.left {
+    width: 49%;
+    float: left;
+    justify-content: center;
+}  
+
+.float-child.right {
+    width: 49%;
+    float: left;
+    justify-content: center;
+}  
+
 .box {
     font-weight: 400;
     font-family: cormorant, sans-serif;
@@ -95,6 +112,7 @@ p {
     font-size: 128px;
     line-height: 153.6px;
     text-align: center;
+    height: 150px;
 }
 
 .button {
