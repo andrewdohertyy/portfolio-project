@@ -4,6 +4,9 @@ body {
     color: white;
     font-family: playfair display;
     padding: 10 40px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
@@ -23,6 +26,11 @@ h1 {
     font-family: "cormorant", sans-serif;
 }
 
+h1 span {
+    color: #D9BEA5;
+}
+
+
 p {
     font-family: "inter", sans-serif;
     font-size: 20px;
@@ -37,11 +45,12 @@ p {
 }
 
 #name {
-    color: #D9BEA5;
+    color: white;
     font-weight: 700;
     font-size: 48px;
     line-height: 57.6px;
 }   
+
 
 #mainheader {
     font-weight: 400;
@@ -52,7 +61,27 @@ p {
     font-weight: 700;
     font-size: 64px;
     line-height: 102.4px;
+}
 
+.box {
+    font-weight: 400;
+    font-family: cormorant, sans-serif;
+    font-size: 42px;
+    line-height: 67.2px;
+}
+
+#ProjectButtons {
+    justify-content: center;
+    font-family: inter, sans-serif;
+    width: 100px;
+    border: 1px;
+    display: block;
+    text-align: center;
+    background-color: #3C3636;
+    padding: 10px 20px;
+    box-sizing:content-box;
+    color: white;
+    margin: 50px auto;
 }
 
 #about {
@@ -71,7 +100,7 @@ p {
 .button {
     justify-content: center;
     border-color: #D9BEA5;
-    border-width: 321px;
+    width: 100px;
     border: solid 1px;
     display: block;
     text-align: center;
@@ -79,14 +108,20 @@ p {
     padding: 10px 20px;
     box-sizing:content-box;
     color: white;
-}
+    margin: 50px auto;
+} 
+
 
 footer {
     padding: 50px;
+    height: 50px;
     text-align: center;
+    background-color: #3b3636;
+    float: none;
+    clear: both;
 }
 
 img.resize {
-    width: 100px;
-    height: auto;
+    width: 458px;
+    height: 558px;
 }
