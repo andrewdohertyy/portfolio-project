@@ -57,6 +57,13 @@ p {
     font-size: 128px;
 }
 
+.introtext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 50%;
+}
+
 #portfolio {
     font-weight: 700;
     font-size: 64px;
@@ -76,6 +83,25 @@ p {
     justify-content: center;
     align-content: center;
 }
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 33%;
+    padding: 50px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 33%;
+    padding: 50px;
+}
+
 
 .box {
     font-weight: 400;
@@ -109,7 +135,8 @@ p {
     font-size: 128px;
     line-height: 153.6px;
     text-align: center;
-    height: 150px;
+    height: 80px;
+
 }
 
 .button {
@@ -126,15 +153,6 @@ p {
     margin: 50px auto;
 } 
 
-
-footer {
-    padding: 50px;
-    height: 50px;
-    text-align: center;
-    background-color: #3b3636;
-    float: none;
-    clear: both;
-}
 
 img.resize {
     width: 458px;
@@ -170,4 +188,18 @@ h2Project5 {
 
 h2Project6 {
     grid-area: PROJECT6;
+}
+
+
+footer {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    background-color: #3b3636;
+    float: none;
+    clear: both;
 }
