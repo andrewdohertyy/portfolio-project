@@ -113,7 +113,7 @@ p {
 #ProjectButtons {
     justify-content: center;
     font-family: inter, sans-serif;
-    width: 100px;
+    width: 50px;
     border: 1px;
     display: block;
     text-align: center;
@@ -121,7 +121,7 @@ p {
     padding: 10px 20px;
     box-sizing:content-box;
     color: white;
-    margin: 50px auto;
+    margin: 2px auto;
 }
 
 #about {
@@ -154,10 +154,14 @@ p {
 } 
 
 
+
 img.resize {
     width: 458px;
     height: 558px;
 }
+
+
+
 
 .grid-container{
     padding: 10px;
@@ -165,38 +169,57 @@ img.resize {
     grid-template-areas:
     "PROJECT1 PROJECT2 PROJECT3"
     "PROJECT4 PROJECT5 PROJECT6" ;
-    grid-gap: 10px;
+    grid-gap: 50px;
 }
 
 h2Project1 {
     grid-area: PROJECT1;
+    padding: 10px;
 }
 h2Project2 {
     grid-area: PROJECT2;
+    padding: 10px;
+
 }
 h2Project3 {
     grid-area: PROJECT3;
+    padding: 10px;
 }
 
 h2Project4 {
     grid-area: PROJECT4;
+    padding: 10px;
 }
 
 h2Project5 {
     grid-area: PROJECT5;
+    padding: 10px;
 }
 
 h2Project6 {
     grid-area: PROJECT6;
+    padding: 10px;
 }
 
+
+.content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px
+}
+.circles {
+    height: 70px;
+}
 
 footer {
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap:25px;
     height: 50px;
     text-align: center;
     background-color: #3b3636;
