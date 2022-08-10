@@ -11,11 +11,11 @@ $color-white: #fafafa;
 $color-light-grey: #3c3636;
 $color-dark-grey: #2c2a2a;
 $color-beige: #D9BEA5;
-
+$color-footer: #3b3636
 
 body {
-    background-color: 2c2a2a;
-    color: white;
+    background-color: $color-light-grey;
+    color: $color-white;
     font-family: playfair display;
     width: auto;
     margin-left: auto;
@@ -34,4 +34,15 @@ a:hover {
 a:link,
 a:visited {
   text-decoration: none;
+}
+
+
+
+.button:hover {
+    opacity: 0.5;
+}
+
+
+img:hover {
+    opacity: 0.5;
 }

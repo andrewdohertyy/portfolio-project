@@ -10,22 +10,22 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 32px;
-        color: white;
+        color: $color-white;
     }
 
     &__name{
-        font-family: "cormorant", sans-serif;
-        color: white;
+        font-family: $font-cormorant;
+        color:$color-white;
         font-weight: 700;
         font-size: 48px;
         line-height: 57.6px;
             h1 span {
-                color: #D9BEA5;
+                color: $color-beige;
             }
     }
 
     &__link{
-        font-family: "inter", sans-serif;
+        font-family: $font-inter;
     font-size: 20px;
     }
 }
@@ -67,7 +67,7 @@ footer {
     gap:25px;
     height: 50px;
     text-align: center;
-    background-color: #3b3636;
+    background-color: $color-footer;
     float: none;
     clear: both;
 }

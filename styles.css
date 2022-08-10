@@ -4,7 +4,7 @@
     }
 }
 
-body {
+/* body {
     background-color: 2c2a2a;
     color: white;
     font-family: playfair display;
@@ -78,113 +78,13 @@ p {
     width: 50%;
 }
 
-#portfolio {
+*/
+
+.portfolio {
     font-weight: 700;
     font-size: 64px;
     line-height: 102.4px;
 }
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.flex-container2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items:flex-start;
-}
-
-.leftside {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 33%;
-}
-
-.rightside {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width:33%;
-}
-
-.box {
-    font-weight: 400;
-    font-family: cormorant, sans-serif;
-    font-size: 42px;
-    line-height: 67.2px;
-}
-
-#ProjectButtons {
-    justify-content: center;
-    font-family: inter, sans-serif;
-    width: 50px;
-    border: 1px;
-    display: block;
-    text-align: center;
-    background-color: #3C3636;
-    padding: 10px 20px;
-    box-sizing:content-box;
-    color: white;
-    margin: 2px auto;
-}
-
-#about {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 102.4px;
-}
-
-#get-in-touch {
-    font-weight: 400;
-    font-size: 128px;
-    line-height: 153.6px;
-    text-align: center;
-    height: 80px;
-
-}
-
-.button {
-    justify-content: center;
-    border-color: #D9BEA5;
-    width: 100px;
-    border: solid 1px;
-    display: block;
-    text-align: center;
-    background-color: 2c2a2a;
-    padding: 10px 20px;
-    box-sizing:content-box;
-    color: white;
-    margin: 50px auto;
-
-}
-
-.button:hover {
-    opacity: 0.5;
-}
-
-
-img:hover {
-    opacity: 0.5;
-}
-
-img.resize:hover {
-    opacity: 1;
-}
-
-img.resize {
-    width: 458px;
-    height: 568px;
-    padding: 100px 1px;
-}
-
 
 
 .grid-container{
@@ -236,6 +136,104 @@ h2Project6 {
 .circles {
     height: 70px;
 }
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:33%;
+}
+
+.box {
+    font-weight: 400;
+    font-family: cormorant, sans-serif;
+    font-size: 42px;
+    line-height: 67.2px;
+}
+
+#ProjectButtons {
+    justify-content: center;
+    font-family: inter, sans-serif;
+    width: 50px;
+    border: 1px;
+    display: block;
+    text-align: center;
+    background-color: #3C3636;
+    padding: 10px 20px;
+    box-sizing:content-box;
+    color: white;
+    margin: 2px auto;
+}
+
+.leftside__about {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 102.4px;
+}
+
+.contact__h1 {
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 153.6px;
+    text-align: center;
+    height: 80px;
+
+}
+
+.button {
+    justify-content: center;
+    border-color: #D9BEA5;
+    width: 100px;
+    border: solid 1px;
+    display: block;
+    text-align: center;
+    background-color: 2c2a2a;
+    padding: 10px 20px;
+    box-sizing:content-box;
+    color: white;
+    margin: 50px auto;
+
+}
+
+
+img.rightside__resize:hover {
+    opacity: 1;
+}
+
+img.rightside__resize {
+    width: 458px;
+    height: 568px;
+    padding: 100px 1px;
+}
+
 
 footer {
     padding: 50px;
