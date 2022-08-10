@@ -1,3 +1,9 @@
+@media screen  and (max-width:768px) {
+    main {
+        width: 300px;
+    }
+}
+
 body {
     background-color: 2c2a2a;
     color: white;
