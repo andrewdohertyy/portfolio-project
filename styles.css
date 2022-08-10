@@ -156,7 +156,7 @@ p {
 img.resize {
     width: 458px;
     height: 568px;
-    padding: 100px;
+    padding: 100px 1px;
 }
 
 
