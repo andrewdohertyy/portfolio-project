@@ -17,6 +17,10 @@ nav {
     align-items: center;
 }
 
+a:hover {
+    opacity: 0.5;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
@@ -149,7 +153,12 @@ p {
     box-sizing:content-box;
     color: white;
     margin: 50px auto;
-} 
+
+}
+
+.button:hover {
+    opacity: 0.5;
+}
 
 
 
@@ -225,4 +234,8 @@ footer {
     background-color: #3b3636;
     float: none;
     clear: both;
+}
+
+img:hover {
+    opacity: 0.5;
 }
