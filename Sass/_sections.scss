@@ -1,0 +1,46 @@
+.heading {
+
+    __&links{
+        height: 10vh;
+        padding: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: white;
+    }
+
+    __&name{
+        font-family: "cormorant", sans-serif;
+        color: white;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57.6px;
+            h1 span {
+                color: #D9BEA5;
+            }
+    }
+
+    __&link{
+        font-family: "inter", sans-serif;
+    font-size: 20px;
+    }
+}
+
+.intro {
+
+    &__mainheader{
+        font-weight: 400;
+        font-size: 128px;
+    }
+
+    &__text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 50%;
+    }
+}
