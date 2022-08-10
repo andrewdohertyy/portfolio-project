@@ -7,10 +7,6 @@ body {
     margin-right: auto;
 }
 
-main {
-    padding: 0px 40px;
-    margin: 0;
-}
 
 nav {
     height: 10vh;
@@ -18,6 +14,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+main {
+    padding: 0px 40px;
+    margin: 0;
 }
 
 a:hover {
@@ -105,7 +106,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 33%;
+    width:33%;
 }
 
 .box {
@@ -163,6 +164,11 @@ p {
     opacity: 0.5;
 }
 
+
+img:hover {
+    opacity: 0.5;
+}
+
 img.resize:hover {
     opacity: 1;
 }
@@ -172,7 +178,6 @@ img.resize {
     height: 568px;
     padding: 100px 1px;
 }
-
 
 
 
@@ -238,8 +243,4 @@ footer {
     background-color: #3b3636;
     float: none;
     clear: both;
-}
-
-img:hover {
-    opacity: 0.5;
 }
