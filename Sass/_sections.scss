@@ -58,6 +58,52 @@
 
 
 
+
+
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+
+    &__leftside{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 33%;
+    }
+
+    &__about{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 102.4px;
+    }
+
+    &__rightside{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width:33%;
+    }
+    &__img__resize:hover {
+        opacity: 1;
+    }
+    
+    &__img__resize {
+        width: 458px;
+        height: 568px;
+        padding: 100px 1px;
+    }
+}
+
+
+
+
+
 footer {
     padding: 50px;
     display: flex;

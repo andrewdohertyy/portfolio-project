@@ -138,15 +138,7 @@ h2Project6 {
 }
 
 
-
-
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
+/*
 
 .about-container {
     display: flex;
@@ -164,6 +156,12 @@ h2Project6 {
     width: 33%;
 }
 
+.leftside__about {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 102.4px;
+}
+
 .rightside {
     display: flex;
     flex-direction: row;
@@ -171,6 +169,18 @@ h2Project6 {
     justify-content: space-between;
     width:33%;
 }
+
+
+*/
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .box {
     font-weight: 400;
@@ -193,11 +203,7 @@ h2Project6 {
     margin: 2px auto;
 }
 
-.leftside__about {
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 102.4px;
-}
+
 
 .contact__h1 {
     font-weight: 400;
@@ -223,6 +229,7 @@ h2Project6 {
 
 }
 
+/*
 
 img.rightside__resize:hover {
     opacity: 1;
