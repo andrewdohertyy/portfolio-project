@@ -1,6 +1,7 @@
 @use "_styles.scss";
 
 
+
 /* heading and navigation bar */
 
 
@@ -194,14 +195,11 @@ h2Project6 {
         &:hover {
             opacity: 1;
         }
-    }
-    &__img__resize {
         width: 458px;
         height: 568px;
         padding: 100px 1px;
-    }
 }
-
+}
 
 
 
