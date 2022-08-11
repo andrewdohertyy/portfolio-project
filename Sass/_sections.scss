@@ -42,6 +42,11 @@
 }
 
 
+
+
+
+
+
 /* main intro text and subtext */
 
 
@@ -59,6 +64,13 @@
         width: 50%;
     }
 }
+
+
+
+
+
+/* portfolio caption and code for porftolio grid */
+
 
 
 .portfolio {
@@ -144,6 +156,10 @@ h2Project6 {
 
 
 
+
+
+
+
 /* about section showing header and 2 p tags with an image next to it */
 
 .about-container {
@@ -174,16 +190,20 @@ h2Project6 {
         justify-content: space-between;
         width:33%;
     }
+    &__img.rightside__resize {
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &__img.rightside__resize.resize {
+        width: 458px;
+        height: 568px;
+        padding: 100px 1px;
+    }
 }
 
 
-img.resize {
-    width: 458px;
-    height: 568px;
-    padding: 100px 1px;
-}   &:hover {
-    opacity: 1;
-}
+
 
 
 /*  code for flexing lists side by side */
@@ -195,6 +215,9 @@ img.resize {
     justify-content: space-around;
     align-items: center;
 }
+
+
+
 
 
 
