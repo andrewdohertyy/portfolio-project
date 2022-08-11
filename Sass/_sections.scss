@@ -120,21 +120,21 @@ h2Project6 {
 
 .ProjectButtons {
     justify-content: center;
-    font-family: inter, sans-serif;
+    font-family: $font-inter;
     width: 50px;
     border: 1px;
     display: block;
     text-align: center;
-    background-color: #3C3636;
+    background-color:$color-light-grey;
     padding: 10px 20px;
     box-sizing:content-box;
-    color: white;
+    color:$color-white;
     margin: 2px auto;
 }
 
 .box {
     font-weight: 400;
-    font-family: cormorant, sans-serif;
+    font-family: $font-cormorant;
     font-size: 42px;
     line-height: 67.2px;
 }
@@ -215,15 +215,15 @@ h2Project6 {
 
     &__button {
         justify-content: center;
-        border-color: #D9BEA5;
+        border-color: $color-beige;
         width: 100px;
         border: solid 1px;
         display: block;
         text-align: center;
-        background-color: 2c2a2a;
+        background-color:$color-dark-grey;
         padding: 10px 20px;
         box-sizing:content-box;
-        color: white;
+        color:$color-white;
         margin: 50px auto;
     }
 }
