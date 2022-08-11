@@ -172,7 +172,7 @@ h2Project6 {
     align-items:flex-start;
 }
 
-.leftside {
+.about-container__leftside {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -180,13 +180,13 @@ h2Project6 {
     width: 33%;
 }
 
-.leftside__about {
+.about-container__about {
     font-weight: 700;
     font-size: 64px;
     line-height: 102.4px;
 }
 
-.rightside {
+.about-container__rightside {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -195,11 +195,11 @@ h2Project6 {
 }
 
 
-img.rightside__resize:hover {
+img.about-container__resize:hover {
     opacity: 1;
 }
 
-img.rightside__resize.resize {
+img.about-container__resize {
     width: 458px;
     height: 568px;
     padding: 100px 1px;

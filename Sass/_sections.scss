@@ -190,12 +190,12 @@ h2Project6 {
         justify-content: space-between;
         width:33%;
     }
-    &__img.rightside__resize {
+    &__img__resize {
         &:hover {
             opacity: 1;
         }
     }
-    &__img.rightside__resize.resize {
+    &__img__resize {
         width: 458px;
         height: 568px;
         padding: 100px 1px;
