@@ -1,5 +1,6 @@
 @use "./Sass/sections";
-@use "./Sass/styles";
+@use "./Sass/styles" as *;
+
 
 @media screen  and (max-width:768px) {
     main {
@@ -16,7 +17,7 @@
         width: 100%;
         display: flex;
     }
-}
+    }
     
 
     footer {
@@ -47,12 +48,8 @@
 
 
 
-
-
-
-
 body {
-    background-color: $color-light-grey;
+    background-color: $color-dark-grey;
     color: $color-white;
     font-family: $font-playfair;
     width: auto;
@@ -62,7 +59,7 @@ body {
 
 main {
     padding: 0px 40px;
-    margin: 0;
+    margin: 20px;
 }
 
 

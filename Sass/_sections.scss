@@ -1,4 +1,4 @@
-@use "_styles.scss";
+@use "_styles.scss" as *;
 
 
 /* heading and navigation bar */
@@ -25,10 +25,12 @@
         font-weight: 700;
         font-size: 48px;
         line-height: 57.6px;
-            &__span {
-                color: $color-beige;
-            }
     }
+
+    &__span{
+        color: $color-beige;
+    }
+    
 
     &__link{
         font-family: $font-inter;
@@ -81,7 +83,7 @@
 
 
 .grid-container{
-    width: 75%;
+    width: 60%;
     display: grid;
     grid-template-areas:
     "PROJECT1 PROJECT2 PROJECT3"
@@ -91,31 +93,31 @@
 
 h2Project1 {
     grid-area: PROJECT1;
-    padding: 10px;
+    
 }
 h2Project2 {
     grid-area: PROJECT2;
-    padding: 10px;
+    
 
 }
 h2Project3 {
     grid-area: PROJECT3;
-    padding: 10px;
+  
 }
 
 h2Project4 {
     grid-area: PROJECT4;
-    padding: 10px;
+    
 }
 
 h2Project5 {
     grid-area: PROJECT5;
-    padding: 10px;
+    
 }
 
 h2Project6 {
     grid-area: PROJECT6;
-    padding: 10px;
+    
 }
 
 
@@ -190,15 +192,16 @@ h2Project6 {
         justify-content: space-between;
         width:33%;
     }
-    &__img__resize {
+
+
+    img.about-container__resize {
         &:hover {
             opacity: 1;
         }
         width: 458px;
         height: 568px;
         padding: 100px 1px;
-}
-}
+}}
 
 
 
@@ -223,7 +226,7 @@ h2Project6 {
 /* contact page and footer code */
 
 .contact {
-    &____h1 {
+    &__h1 {
         font-weight: 400;
         font-size: 128px;
         line-height: 153.6px;
