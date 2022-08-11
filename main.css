@@ -199,7 +199,7 @@ img.rightside__resize:hover {
     opacity: 1;
 }
 
-img.rightside__resize {
+img.rightside__resize.resize {
     width: 458px;
     height: 568px;
     padding: 100px 1px;
