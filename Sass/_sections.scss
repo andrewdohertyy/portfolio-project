@@ -54,7 +54,10 @@
 
 .intro {
 
+    margin: 40px;
+
     &__mainheader{
+        
         font-weight: 400;
         font-size: 128px;
     }
@@ -76,6 +79,7 @@
 
 
 .portfolio {
+    margin: 40px;
     font-weight: 700;
     font-size: 64px;
     line-height: 102.4px;
@@ -83,7 +87,7 @@
 
 
 .grid-container{
-    width: 60%;
+    
     display: grid;
     grid-template-areas:
     "PROJECT1 PROJECT2 PROJECT3"
