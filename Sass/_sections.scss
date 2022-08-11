@@ -174,18 +174,16 @@ h2Project6 {
         justify-content: space-between;
         width:33%;
     }
-    
-    img.rightside__resize {
-        &:hover {
-            opacity: 1;
-        }
-        width: 458px;
-        height: 568px;
-        padding: 100px 1px;
-    }
 }
 
 
+img.resize {
+    width: 458px;
+    height: 568px;
+    padding: 100px 1px;
+}   &:hover {
+    opacity: 1;
+}
 
 
 /*  code for flexing lists side by side */
