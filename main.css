@@ -1,21 +1,20 @@
 @media screen  and (max-width:768px) {
     main {
-        width: 100%;
+        width: 768px;
         display: flex;
         flex-direction: column;
     }
 
     .heading {
-        width: 100%;
+        width: 768px;
         justify-content: space-between;
     } 
     
     .heading__links {
-        width: 100%;
+        width: 768px;
         display: flex;
     }
     
-
     footer {
         width: 768px;
     }
