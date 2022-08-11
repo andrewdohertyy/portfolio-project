@@ -76,12 +76,8 @@ a:visited {
 
 
 
-.introtext {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    width: 50%;
-}
+
+/*  portfolio and grid images and boxes together */
 
 
 .portfolio {
@@ -141,7 +137,32 @@ h2Project6 {
     height: 70px;
 }
 
+.ProjectButtons {
+    justify-content: center;
+    font-family: inter, sans-serif;
+    width: 50px;
+    border: 1px;
+    display: block;
+    text-align: center;
+    background-color: #3C3636;
+    padding: 10px 20px;
+    box-sizing:content-box;
+    color: white;
+    margin: 2px auto;
+}
 
+.box {
+    font-weight: 400;
+    font-family: cormorant, sans-serif;
+    font-size: 42px;
+    line-height: 67.2px;
+}
+
+
+
+
+
+/* About and the images */
 
 .about-container {
     display: flex;
@@ -174,10 +195,21 @@ h2Project6 {
 }
 
 
+img.rightside__resize:hover {
+    opacity: 1;
+}
+
+img.rightside__resize {
+    width: 458px;
+    height: 568px;
+    padding: 100px 1px;
+}
 
 
+/*  2 lists flexed side by side */
 
-.flex-container {
+
+.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -185,27 +217,10 @@ h2Project6 {
 }
 
 
-.box {
-    font-weight: 400;
-    font-family: cormorant, sans-serif;
-    font-size: 42px;
-    line-height: 67.2px;
-}
 
-#ProjectButtons {
-    justify-content: center;
-    font-family: inter, sans-serif;
-    width: 50px;
-    border: 1px;
-    display: block;
-    text-align: center;
-    background-color: #3C3636;
-    padding: 10px 20px;
-    box-sizing:content-box;
-    color: white;
-    margin: 2px auto;
-}
 
+
+/*contact button and text */
 
 
 .contact__h1 {
@@ -217,7 +232,7 @@ h2Project6 {
 
 }
 
-.button {
+.conact__button {
     justify-content: center;
     border-color: #D9BEA5;
     width: 100px;
@@ -229,20 +244,11 @@ h2Project6 {
     box-sizing:content-box;
     color: white;
     margin: 50px auto;
-
 }
 
 
 
-img.rightside__resize:hover {
-    opacity: 1;
-}
-
-img.rightside__resize {
-    width: 458px;
-    height: 568px;
-    padding: 100px 1px;
-}
+/* footer code */
 
 
 footer {
@@ -258,5 +264,3 @@ footer {
     float: none;
     clear: both;
 }
-
-*/
