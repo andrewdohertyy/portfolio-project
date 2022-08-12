@@ -1,0 +1,200 @@
+/* Fonts for sass */
+/* heading and navigation bar */
+.heading__links {
+  height: 10vh;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fafafa;
+}
+.heading__name {
+  font-family: "Cormorant", sans-serif;
+  color: #fafafa;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+}
+.heading__span {
+  color: #D9BEA5;
+}
+.heading__link {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fafafa;
+}
+
+/* main intro text and subtext */
+.intro {
+  margin: 40px;
+}
+.intro__mainheader {
+  font-weight: 400;
+  font-size: 128px;
+}
+.intro__text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 50%;
+}
+
+/* portfolio caption and code for porftolio grid */
+.portfolio {
+  margin: 40px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 102.4px;
+}
+
+.grid-container {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-areas: "PROJECT1 PROJECT2 PROJECT3" "PROJECT4 PROJECT5 PROJECT6";
+  grid-gap: 20px;
+}
+
+h2Project1 {
+  grid-area: PROJECT1;
+}
+
+h2Project2 {
+  grid-area: PROJECT2;
+}
+
+h2Project3 {
+  grid-area: PROJECT3;
+}
+
+h2Project4 {
+  grid-area: PROJECT4;
+}
+
+h2Project5 {
+  grid-area: PROJECT5;
+}
+
+h2Project6 {
+  grid-area: PROJECT6;
+}
+
+.content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.circles {
+  height: 70px;
+}
+
+.ProjectButtons {
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  width: 50px;
+  border: 1px;
+  display: block;
+  text-align: center;
+  background-color: #3C3636;
+  padding: 10px 20px;
+  box-sizing: content-box;
+  color: #fafafa;
+  margin: 2px auto;
+}
+
+.box {
+  font-weight: 400;
+  font-family: "Cormorant", sans-serif;
+  font-size: 42px;
+  line-height: 67.2px;
+}
+
+/* about section showing header and 2 p tags with an image next to it */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.about-container__leftside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 33%;
+}
+.about-container__about {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 102.4px;
+}
+.about-container__rightside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 33%;
+}
+.about-container img.about-container__resize {
+  width: 458px;
+  height: 568px;
+  padding: 100px 1px;
+}
+.about-container img.about-container__resize:hover {
+  opacity: 1;
+}
+
+/*  code for flexing lists side by side */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* contact page and footer code */
+.contact__h1 {
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 153.6px;
+  text-align: center;
+  height: 80px;
+}
+.contact__button {
+  justify-content: center;
+  border-color: #D9BEA5;
+  width: 100px;
+  border: solid 1px;
+  display: block;
+  text-align: center;
+  background-color: #2c2a2a;
+  padding: 10px 20px;
+  box-sizing: content-box;
+  color: #fafafa;
+  margin: 50px auto;
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 25px;
+  height: 50px;
+  text-align: center;
+  background-color: #3B3636;
+  float: none;
+  clear: both;
+}

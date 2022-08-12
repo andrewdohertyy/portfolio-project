@@ -1,0 +1,269 @@
+@use "_styles.scss" as *;
+
+
+/* heading and navigation bar */
+
+
+.heading {
+
+    &__links{
+        height: 10vh;
+        padding: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: $color-white;
+    }
+
+    &__name{
+        font-family: $font-cormorant;
+        color:$color-white;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57.6px;
+    }
+
+    &__span{
+        color: $color-beige;
+    }
+    
+
+    &__link{
+        font-family: $font-inter;
+        font-size: 20px;
+        list-style-type: none;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: $color-white;
+    }
+}
+
+
+
+
+
+
+
+/* main intro text and subtext */
+
+
+.intro {
+
+    margin: 40px;
+
+    &__mainheader{
+        
+        font-weight: 400;
+        font-size: 128px;
+    }
+
+    &__text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        width: 50%;
+    }
+}
+
+
+
+
+
+/* portfolio caption and code for porftolio grid */
+
+
+
+.portfolio {
+    margin: 40px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 102.4px;
+}
+
+
+.grid-container{
+    overflow-x: hidden;
+    display: grid;
+    grid-template-areas:
+    "PROJECT1 PROJECT2 PROJECT3"
+    "PROJECT4 PROJECT5 PROJECT6" ;
+    grid-gap: 20px;
+}
+
+h2Project1 {
+    grid-area: PROJECT1;
+    
+}
+h2Project2 {
+    grid-area: PROJECT2;
+    
+
+}
+h2Project3 {
+    grid-area: PROJECT3;
+  
+}
+
+h2Project4 {
+    grid-area: PROJECT4;
+    
+}
+
+h2Project5 {
+    grid-area: PROJECT5;
+    
+}
+
+h2Project6 {
+    grid-area: PROJECT6;
+    
+}
+
+
+.content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px
+}
+.circles {
+    height: 70px;
+}
+
+.ProjectButtons {
+    justify-content: center;
+    font-family: $font-inter;
+    width: 50px;
+    border: 1px;
+    display: block;
+    text-align: center;
+    background-color:$color-light-grey;
+    padding: 10px 20px;
+    box-sizing:content-box;
+    color:$color-white;
+    margin: 2px auto;
+}
+
+.box {
+    font-weight: 400;
+    font-family: $font-cormorant;
+    font-size: 42px;
+    line-height: 67.2px;
+}
+
+
+
+
+
+
+
+
+
+
+/* about section showing header and 2 p tags with an image next to it */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+
+    &__leftside{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 33%;
+    }
+
+    &__about{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 102.4px;
+    }
+
+    &__rightside{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width:33%;
+    }
+
+
+    img.about-container__resize {
+        &:hover {
+            opacity: 1;
+        }
+        width: 458px;
+        height: 568px;
+        padding: 100px 1px;
+}}
+
+
+
+
+/*  code for flexing lists side by side */
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/* contact page and footer code */
+
+.contact {
+    &__h1 {
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 153.6px;
+        text-align: center;
+        height: 80px;
+    }   
+
+    &__button {
+        justify-content: center;
+        border-color: $color-beige;
+        width: 100px;
+        border: solid 1px;
+        display: block;
+        text-align: center;
+        background-color:$color-dark-grey;
+        padding: 10px 20px;
+        box-sizing:content-box;
+        color:$color-white;
+        margin: 50px auto;
+    }
+}
+
+
+footer {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:25px;
+    height: 50px;
+    text-align: center;
+    background-color: $color-footer;
+    float: none;
+    clear: both;
+}
