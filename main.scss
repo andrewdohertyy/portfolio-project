@@ -21,6 +21,14 @@
         display: flex;
     }
     }
+
+    .about-container__rightside {
+        display: none;
+    }
+
+    .about-container__leftside {
+        text-align: left;
+    }
     
 
     footer {
