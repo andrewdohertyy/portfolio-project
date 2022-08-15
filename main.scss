@@ -6,19 +6,22 @@
 
 
     main {
-        
-        width: 100%;
+        margin-left: 75px;
+        width: 100vh;
         display: flex;
         flex-direction: column;
     }
-
+    
     .heading {
         width: 100%;
-        justify-content: space-between;
 
         &__links {
         width: 100%;
         display: flex;
+    }
+
+    &__link {
+        display: none;
     }
     }
 
@@ -28,6 +31,8 @@
 
     .about-container__leftside {
         text-align: left;
+        padding: 30px;
+        padding-bottom: 50px;
     }
     
 
