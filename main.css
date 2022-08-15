@@ -232,7 +232,7 @@ footer {
     width: 768px;
   }
 
-  .grid-container {
+  .portfolio-section {
     display: flex;
     overflow-x: scroll;
     padding: 24px;
@@ -243,7 +243,7 @@ footer {
     gap: 12px;
   }
 
-  .grid-container .content-flex {
+  .portfolio-section .content-flex {
     flex: 50% 0% 100%;
     padding: 24px;
     border-radius: 8px;
