@@ -218,13 +218,11 @@ h2Project6 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    &__sub-text {
+        color: $color-beige;
+    }
 }
-
-
-
-
-
-
 
 
 /* contact page and footer code */

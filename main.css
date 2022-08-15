@@ -162,6 +162,9 @@ h2Project6 {
   justify-content: space-around;
   align-items: center;
 }
+.flex__sub-text {
+  color: #D9BEA5;
+}
 
 /* contact page and footer code */
 .contact__h1 {
