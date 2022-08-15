@@ -133,6 +133,7 @@ h2Project6 {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 33%;
+  padding-top: 75px;
 }
 .about-container__about {
   font-weight: 700;
