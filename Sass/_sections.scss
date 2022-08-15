@@ -87,7 +87,7 @@
 
 
 .grid-container{
-    overflow-x: hidden;
+    overflow-x: scroll;
     display: grid;
     grid-template-areas:
     "PROJECT1 PROJECT2 PROJECT3"
